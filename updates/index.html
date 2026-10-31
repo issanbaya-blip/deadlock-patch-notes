@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101319">
+  <meta name="description" content="Deadlockの最新パッチを日本語で確認。ヒーロー別・ゲームプレイ・アイテム・ストリートブロールの変更を一覧できます。">
+  <meta property="og:type" content="website"><meta property="og:title" content="Deadlock アップデートノート"><meta property="og:description" content="ヒーロー別・ゲームプレイ・アイテム変更を日本語で確認。"><meta property="og:url" content="https://deadlock-patch-notes.pages.dev/"><meta name="twitter:card" content="summary">
+  <title>Deadlock アップデート情報</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/info.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">本文へスキップ</a><header class="topbar info-topbar"><a class="brand" href="/" aria-label="Deadlock 情報目次"><span class="brand-mark">D</span><span>DEADLOCK<br><b>INFO ARCHIVE</b></span></a><nav class="site-nav" aria-label="メインナビゲーション"><a href="/map/">マップ</a><a href="/heroes/">キャラ</a><a href="/items/">アイテム</a><a href="/updates/">アップデート</a></nav></header>
+  <main id="top"><span id="main-content" class="main-anchor" tabindex="-1"></span>
+    <section class="hero-intro"><p class="eyebrow"><span>COMMUNITY PATCH ARCHIVE</span> <i>·</i> SELECT YOUR HERO</p><h1>HERO <span>UPDATES</span></h1><p>キャラクターを選んで、アップデート内容を確認。</p><div class="intro-count"><b id="updated-count">—</b><span>人に変更あり</span><i></i><b id="hero-total">—</b><span>ヒーロー</span></div><div class="refresh-row"><button id="refresh-updates" type="button"><span aria-hidden="true">↻</span> 最新アプデを確認</button><span id="refresh-status" aria-live="polite">Steam公式ニュースを確認できます</span></div><div id="latest-patch-result" class="latest-patch-result" hidden></div></section>
+    <div class="workspace">
+      <aside class="selector-panel"><div class="selector-head"><div><span class="panel-kicker">ROSTER / 01</span><h2>ヒーロー選択</h2></div><span class="roster-count" id="roster-count">—</span></div><label class="hero-search"><span>⌕</span><input id="hero-search" type="search" placeholder="ヒーローを検索" autocomplete="off"><kbd>⌕</kbd></label><div class="state-key"><span><i class="key-active"></i>変更あり</span><span><i class="key-inactive"></i>変更なし</span></div><div class="hero-grid" id="hero-grid"></div></aside>
+      <section class="detail-panel" id="detail-panel" aria-live="polite"><div class="empty-state"><div class="empty-glyph">✦</div><span class="panel-kicker">PATCH DETAILS / 02</span><h2>ヒーローを選択</h2><p>左のキャラクターを選ぶと<br>変更内容がここに表示されます。</p><div class="empty-ornament">SELECT A HERO TO VIEW CHANGES</div></div></section>
+    </div>
+    <section class="global-updates" id="general"><div class="global-head"><div><span class="panel-kicker">WORLD / 03</span><h2>全体アップデート</h2><p>特定のヒーローに属さない変更</p></div><div class="global-tabs" id="global-tabs"></div></div><div id="global-content"></div></section>
+    <footer><span class="footer-logo">DEADLOCK <b>INFO ARCHIVE</b></span><span>FAN-MADE PATCH ARCHIVE <i>·</i> NOT AFFILIATED WITH VALVE</span><a href="#top">TOP ↑</a></footer>
+  </main>
+  <script src="/data.js"></script><script src="/app.js"></script>
+</body>
+</html>
+
