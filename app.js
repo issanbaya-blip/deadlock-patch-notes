@@ -28,7 +28,22 @@ const select = document.querySelector('#category-filter');
 for (const [key, label] of [['all','すべて'], ...groups.map(g => [g.title, categoryInfo[g.title]?.[1] || g.title])]) {
   const option = document.createElement('option'); option.value = key; option.textContent = label; select.append(option);
 }
-function esc(s) { return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+const toc = document.querySelector('#toc-links');
+groups.forEach((group, index) => {
+  const label = categoryInfo[group.title]?.[1] || group.title;
+  const link = document.createElement('a');
+  link.href = `#section-${index}`;
+  link.className = 'toc-link';
+  link.innerHTML = `<span>${esc(label)}</span><b>${group.items.length}</b>`;
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    search.value = '';
+    select.value = group.title;
+    filter();
+    document.querySelector(`#section-${index}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  toc.append(link);
+});function esc(s) { return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 const search = document.querySelector('#search');
 function filter() {
   const query = search.value.trim().toLocaleLowerCase('ja');
@@ -47,3 +62,4 @@ function filter() {
 }
 search.addEventListener('input', filter); select.addEventListener('change', filter);
 document.querySelector('#clear-search').addEventListener('click', () => { search.value=''; select.value='all'; filter(); search.focus(); });
+
