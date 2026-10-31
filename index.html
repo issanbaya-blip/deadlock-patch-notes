@@ -12,7 +12,7 @@
 <body>
   <header class="topbar"><a class="brand" href="#top"><span class="brand-mark">D</span><span>DEADLOCK<br><b>UPDATE SELECT</b></span></a><div class="top-center"><span class="live-dot"></span> HERO PATCH ARCHIVE <span class="top-divider">/</span> JP</div><a class="top-link" href="#general">GENERAL UPDATES <span>↘</span></a></header>
   <main id="top">
-    <section class="hero-intro"><p class="eyebrow"><span>COMMUNITY PATCH ARCHIVE</span> <i>·</i> SELECT YOUR HERO</p><h1>HERO <span>UPDATES</span></h1><p>キャラクターを選んで、アップデート内容を確認。</p><div class="intro-count"><b id="updated-count">—</b><span>人に変更あり</span><i></i><b id="hero-total">—</b><span>ヒーロー</span></div></section>
+    <section class="hero-intro"><p class="eyebrow"><span>COMMUNITY PATCH ARCHIVE</span> <i>·</i> SELECT YOUR HERO</p><h1>HERO <span>UPDATES</span></h1><p>キャラクターを選んで、アップデート内容を確認。</p><div class="intro-count"><b id="updated-count">—</b><span>人に変更あり</span><i></i><b id="hero-total">—</b><span>ヒーロー</span></div><div class="refresh-row"><button id="refresh-updates" type="button"><span aria-hidden="true">↻</span> 最新アプデを確認</button><span id="refresh-status" aria-live="polite">Steam公式ニュースを確認できます</span></div><div id="latest-patch-result" class="latest-patch-result" hidden></div></section>
     <div class="workspace">
       <aside class="selector-panel"><div class="selector-head"><div><span class="panel-kicker">ROSTER / 01</span><h2>ヒーロー選択</h2></div><span class="roster-count" id="roster-count">—</span></div><label class="hero-search"><span>⌕</span><input id="hero-search" type="search" placeholder="ヒーローを検索" autocomplete="off"><kbd>⌕</kbd></label><div class="state-key"><span><i class="key-active"></i>変更あり</span><span><i class="key-inactive"></i>変更なし</span></div><div class="hero-grid" id="hero-grid"></div></aside>
       <section class="detail-panel" id="detail-panel" aria-live="polite"><div class="empty-state"><div class="empty-glyph">✦</div><span class="panel-kicker">PATCH DETAILS / 02</span><h2>ヒーローを選択</h2><p>左のキャラクターを選ぶと<br>変更内容がここに表示されます。</p><div class="empty-ornament">SELECT A HERO TO VIEW CHANGES</div></div></section>
@@ -23,3 +23,4 @@
   <script src="data.js"></script><script src="app.js"></script>
 </body>
 </html>
+
