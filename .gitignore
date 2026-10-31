@@ -2,3 +2,7 @@
 Thumbs.db
 .vscode/
 .idea/
+/deploy/
+/heroes.json
+/data.json
+/work/

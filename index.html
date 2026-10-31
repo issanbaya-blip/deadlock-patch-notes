@@ -1,56 +1,25 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c0d11">
-  <meta name="description" content="Deadlockの最新アップデート情報を日本語で読みやすく。ゲームプレイ、アイテム、ヒーローの変更内容を検索できます。">
-  <title>Deadlock Update Notes — アップデート情報</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101319">
+  <meta name="description" content="Deadlockのアップデートをヒーロー別にチェック。">
+  <title>Deadlock — HERO UPDATE SELECT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="#top" aria-label="Deadlock Update Notes ホーム"><span class="brand-mark">D</span><span>UPDATE<br><b>NOTES</b></span></a>
-    <div class="top-center"><span class="live-dot"></span> COMMUNITY PATCH ARCHIVE <span class="top-divider">/</span> JAPANESE</div>
-    <a class="top-link" href="#patch-notes">PATCH NOTES <span>↘</span></a>
-  </header>
+  <header class="topbar"><a class="brand" href="#top"><span class="brand-mark">D</span><span>DEADLOCK<br><b>UPDATE SELECT</b></span></a><div class="top-center"><span class="live-dot"></span> HERO PATCH ARCHIVE <span class="top-divider">/</span> JP</div><a class="top-link" href="#general">GENERAL UPDATES <span>↘</span></a></header>
   <main id="top">
-    <section class="hero">
-      <div class="hero-bg-mark" aria-hidden="true">D</div>
-      <div class="hero-copy">
-        <p class="eyebrow"><span>DEADLOCK</span> <i>COMMUNITY PATCH NOTES</i></p>
-        <h1>THE CITY<br>IS <span>CHANGING.</span></h1>
-        <p class="hero-desc">Deadlockのアップデートを、<br class="mobile-break">ひと目でわかる日本語に。</p>
-        <a class="scroll-link" href="#patch-notes"><span class="scroll-icon">↓</span> UPDATEを読む <span class="scroll-line"></span></a>
-      </div>
-      <div class="hero-stats">
-        <div class="hero-stat"><strong id="hero-count">—</strong><span>変更項目</span></div>
-        <div class="stat-rule"></div>
-        <div class="hero-stat"><strong id="category-count">—</strong><span>カテゴリ</span></div>
-      </div>
-      <div class="hero-side-note">NEW YORK<br>UNDERWORLD<br><span>EST. 2024</span></div>
-    </section>
-    <section class="content" id="patch-notes">
-      <div class="content-head">
-        <div><p class="eyebrow muted">FIELD REPORT <span>001</span></p><h2>アップデート <em>ログ</em></h2></div>
-        <div class="content-date"><span class="date-mark"></span> PATCH ARCHIVE <small> / JP</small></div>
-      </div>
-      <nav class="toc" aria-label="アップデート目次"><div class="toc-heading"><span class="date-mark"></span><span>目次 <small>CONTENTS</small></span></div><div class="toc-links" id="toc-links"></div></nav>
-      <div class="filter-panel">
-        <label class="searchbox"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="変更内容を検索..." autocomplete="off"><kbd>SEARCH</kbd></label>
-        <label class="select-wrap"><span class="filter-label">CATEGORY</span><select id="category-filter" aria-label="カテゴリで絞り込む"><option value="all">すべて</option></select><span class="select-arrow">⌄</span></label>
-        <button class="clear-button" id="clear-search" type="button" aria-label="検索条件をクリア">↺</button>
-      </div>
-      <div class="results-bar"><span><b id="total-count">—</b> TOTAL CHANGES</span><span id="result-count">全変更を表示中</span></div>
-      <div id="sections"></div>
-      <footer><span class="footer-logo">DEADLOCK <b>UPDATE NOTES</b></span><span>FAN-MADE PATCH ARCHIVE <i>·</i> NOT AFFILIATED WITH VALVE</span><a href="#top">BACK TO TOP ↑</a></footer>
-    </section>
+    <section class="hero-intro"><p class="eyebrow"><span>COMMUNITY PATCH ARCHIVE</span> <i>·</i> SELECT YOUR HERO</p><h1>HERO <span>UPDATES</span></h1><p>キャラクターを選んで、アップデート内容を確認。</p><div class="intro-count"><b id="updated-count">—</b><span>人に変更あり</span><i></i><b id="hero-total">—</b><span>ヒーロー</span></div></section>
+    <div class="workspace">
+      <aside class="selector-panel"><div class="selector-head"><div><span class="panel-kicker">ROSTER / 01</span><h2>ヒーロー選択</h2></div><span class="roster-count" id="roster-count">—</span></div><label class="hero-search"><span>⌕</span><input id="hero-search" type="search" placeholder="ヒーローを検索" autocomplete="off"><kbd>⌕</kbd></label><div class="state-key"><span><i class="key-active"></i>変更あり</span><span><i class="key-inactive"></i>変更なし</span></div><div class="hero-grid" id="hero-grid"></div></aside>
+      <section class="detail-panel" id="detail-panel" aria-live="polite"><div class="empty-state"><div class="empty-glyph">✦</div><span class="panel-kicker">PATCH DETAILS / 02</span><h2>ヒーローを選択</h2><p>左のキャラクターを選ぶと<br>変更内容がここに表示されます。</p><div class="empty-ornament">SELECT A HERO TO VIEW CHANGES</div></div></section>
+    </div>
+    <section class="global-updates" id="general"><div class="global-head"><div><span class="panel-kicker">WORLD / 03</span><h2>全体アップデート</h2><p>特定のヒーローに属さない変更</p></div><div class="global-tabs" id="global-tabs"></div></div><div id="global-content"></div></section>
+    <footer><span class="footer-logo">DEADLOCK <b>UPDATE SELECT</b></span><span>FAN-MADE PATCH ARCHIVE <i>·</i> NOT AFFILIATED WITH VALVE</span><a href="#top">BACK TO TOP ↑</a></footer>
   </main>
-  <script src="app.js"></script>
+  <script src="data.js"></script><script src="app.js"></script>
 </body>
 </html>
-
