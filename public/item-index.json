@@ -1,30 +1,34 @@
 [
   {
     "id": 1548066885,
+    "className": "upgrade_clip_size",
     "name": "基礎拡張マガジン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/clip_size.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/basic_magazine.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 1009965641,
+    "className": "upgrade_non_player_bonus",
     "name": "モンスターラウンド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/reaper_rounds.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/monster_rounds.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 709540378,
+    "className": "upgrade_non_player_bonus_sacrifice",
     "name": "サクリファイス",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/cultist_sacrifice.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 1248737459,
+    "className": "upgrade_ammo_scavenger",
     "name": "アモ・スカベンジャー",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/ammo_scavenger.webp",
     "cost": 800,
@@ -33,6 +37,7 @@
   },
   {
     "id": 3535785353,
+    "className": "upgrade_clip_size_fixed",
     "name": "upgrade_clip_size_fixed",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/clip_size.webp",
     "cost": 1600,
@@ -41,6 +46,7 @@
   },
   {
     "id": 2861048274,
+    "className": "upgrade_clip_size_fixed_t3",
     "name": "upgrade_clip_size_fixed_t3",
     "image": null,
     "cost": 3200,
@@ -49,22 +55,25 @@
   },
   {
     "id": 811521119,
+    "className": "upgrade_chain_lightning",
     "name": "テスラバレット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/electrified_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/tesla_bullets.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 710436191,
+    "className": "upgrade_capacitor",
     "name": "コンデンサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/electrified_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/capacitor.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 3316018900,
+    "className": "upgrade_galvanic_storm",
     "name": "upgrade_galvanic_storm",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/electrified_bullets.webp",
     "cost": 6400,
@@ -73,22 +82,25 @@
   },
   {
     "id": 2678489038,
+    "className": "upgrade_hollow_point_rounds",
     "name": "ホロウポイント",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/hollow_point.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/hollow_point.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 2064029594,
+    "className": "upgrade_pristine_emblem",
     "name": "オープニングラウンド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/pristine_emblem.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/opening_rounds.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 1544322593,
+    "className": "upgrade_stabilizer",
     "name": "upgrade_stabilizer",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/stabilizer.webp",
     "cost": 800,
@@ -97,86 +109,97 @@
   },
   {
     "id": 3077079169,
+    "className": "upgrade_high_velocity_mag",
     "name": "ハイスピードラウンド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/high_velocity_mag.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/high_velocity_rounds.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 1437614329,
+    "className": "upgrade_lifestrike_gauntlets",
     "name": "メレーライフスティール",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/lifestrike_gauntlets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/melee_lifesteal.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 4204808176,
+    "className": "upgrade_melee_rebuttal",
     "name": "プロテスト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/icons/hud/modifiers/icon_parry.svg",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rebuttal.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 1414025773,
+    "className": "upgrade_counterspell",
     "name": "カウンタースペル",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/icons/hud/modifiers/icon_parry.svg",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/counterspell.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 3791587546,
+    "className": "upgrade_weighted_shots",
     "name": "ヘヴィショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/close_range.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/weighted_shots.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 4238249888,
+    "className": "upgrade_ancient_shield",
     "name": "エンシェントシールド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/close_range.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/ancient_shielding.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 1342610602,
+    "className": "upgrade_close_range",
     "name": "クローズクォーター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/close_range.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/close_quarters.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 3331811235,
+    "className": "upgrade_long_range",
     "name": "ロングレンジ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/long_range.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/long_range.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 393974127,
+    "className": "upgrade_slowing_bullets",
     "name": "スロウバレット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/slowing_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/slowing_bullets.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 2037039379,
+    "className": "upgrade_inhibitor",
     "name": "インヒビター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/inhibitor.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/inhibitor.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1889400890,
+    "className": "upgrade_small_attack_speed",
     "name": "upgrade_small_attack_speed",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
     "cost": 800,
@@ -185,14 +208,16 @@
   },
   {
     "id": 1144549437,
+    "className": "upgrade_tech_defense_shredders",
     "name": "スピリットシュレッダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/tech_resist_shredder.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spirit_shredder_bullets.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 1109351073,
+    "className": "upgrade_attack_speed_1",
     "name": "upgrade_attack_speed_1",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
     "cost": 1600,
@@ -201,6 +226,7 @@
   },
   {
     "id": 1100809516,
+    "className": "upgrade_nearby_enemy_boost",
     "name": "upgrade_nearby_enemy_boost",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/adrenaline_rush.webp",
     "cost": 3200,
@@ -209,14 +235,16 @@
   },
   {
     "id": 2108215830,
+    "className": "upgrade_dps_aura",
     "name": "ヒロイックオーラ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/bullet_damage_aura.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/heroic_aura.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 775925321,
+    "className": "upgrade_weapon_detention_ammo",
     "name": "upgrade_weapon_detention_ammo",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/detention_rounds.webp",
     "cost": 6400,
@@ -225,38 +253,43 @@
   },
   {
     "id": 619484391,
+    "className": "upgrade_targeted_silence",
     "name": "サイレンスウェーブ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/targeted_silence.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/silence_glyph.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 3927044172,
+    "className": "upgrade_haunting_scream",
     "name": "ホーンテッドスクリーム",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/targeted_silence.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/haunting_scream.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 1113837674,
+    "className": "upgrade_proc_silence",
     "name": "サイレンサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/emp_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/silencer.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 3133167885,
+    "className": "upgrade_silencer",
     "name": "サイレンサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/emp_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/silencer.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 1503218332,
+    "className": "upgrade_proc_disarm",
     "name": "upgrade_proc_disarm",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/disarm.webp",
     "cost": 1600,
@@ -265,78 +298,88 @@
   },
   {
     "id": 1414319208,
+    "className": "upgrade_berserker",
     "name": "バーサーカー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/berserker.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/berserker.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 339443430,
+    "className": "upgrade_fervor",
     "name": "フレンジー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fervor.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/frenzy.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 1282141666,
+    "className": "upgrade_siphon_bullets",
     "name": "サイフォンバレット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/siphon_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/siphon_bullets.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 2010028405,
+    "className": "upgrade_headshot_booster",
     "name": "ヘッドショットブースター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/headshot_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/headshot_booster.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 1770441818,
+    "className": "upgrade_headshot_booster2",
     "name": "イグゾーストヘッドショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/headshot_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/weakening_headshot.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 2152872419,
+    "className": "upgrade_sharpshooter",
     "name": "シャープシューター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/longshot.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/sharp_shooter.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 4053935515,
+    "className": "upgrade_headhunter",
     "name": "ヘッドハンター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/headhunter.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/headhunter.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 4075861416,
+    "className": "upgrade_spellslinger_headshots",
     "name": "スピリットキラー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/spellslinger_headshots.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spellslinger_headshots.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 3884003354,
+    "className": "upgrade_banshee_slugs",
     "name": "クリップリングショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/banshee_slugs.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/crippling_headshot.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 184951197,
+    "className": "upgrade_proc_tech_damage",
     "name": "upgrade_proc_tech_damage",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_imbued_bullets.webp",
     "cost": 3200,
@@ -345,30 +388,34 @@
   },
   {
     "id": 395867183,
+    "className": "upgrade_crackshot",
     "name": "ミスティックショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/explosive_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/mystic_shot.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 1396247347,
+    "className": "upgrade_critshot",
     "name": "ラッキーショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/crit_damage.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/lucky_shot.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 2095565695,
+    "className": "upgrade_close_quarter_combat",
     "name": "ポイントブランク",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/point_blank.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/point_blank.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 4284855775,
+    "className": "upgrade_clip_size_2",
     "name": "upgrade_clip_size_2",
     "image": null,
     "cost": 1600,
@@ -377,6 +424,7 @@
   },
   {
     "id": 3449296332,
+    "className": "upgrade_clip_size_3",
     "name": "upgrade_clip_size_3",
     "image": null,
     "cost": 3200,
@@ -385,14 +433,16 @@
   },
   {
     "id": 3696726732,
+    "className": "upgrade_toxic_bullets",
     "name": "トキシックバレット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/toxic_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/toxic_bullets.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 3791295884,
+    "className": "upgrade_attack_speed_2",
     "name": "upgrade_attack_speed_2",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus_plus.webp",
     "cost": 3200,
@@ -401,6 +451,7 @@
   },
   {
     "id": 4190165534,
+    "className": "upgrade_drum_magazine",
     "name": "upgrade_drum_magazine",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/auto_reloader.webp",
     "cost": 3200,
@@ -409,38 +460,43 @@
   },
   {
     "id": 2480592370,
+    "className": "upgrade_ricochet",
     "name": "リコシェ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/ricochet.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/ricochet.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 4149380528,
+    "className": "upgrade_apex_combat",
     "name": "エーペックスコンバット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/ricochet.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/apex_combat.webp",
     "cost": 9999,
     "slot": "weapon",
     "tier": 5
   },
   {
     "id": 3633614685,
+    "className": "upgrade_health",
     "name": "エクストラヘルス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_health.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 2858617477,
+    "className": "upgrade_health_2",
     "name": "タフネス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/panorama:\"\"",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1448361452,
+    "className": "upgrade_toughness_3",
     "name": "upgrade_toughness_3",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health.webp",
     "cost": 1600,
@@ -449,22 +505,25 @@
   },
   {
     "id": 3713423303,
+    "className": "upgrade_bullet_armor",
     "name": "バレットアーマー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_armor.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_resilience.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 223594321,
+    "className": "upgrade_tech_armor",
     "name": "スピリットアーマー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/tech_armor.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_resilience.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1575167590,
+    "className": "upgrade_health_regen_1",
     "name": "upgrade_health_regen_1",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health_regen.webp",
     "cost": 800,
@@ -473,14 +532,16 @@
   },
   {
     "id": 499683006,
+    "className": "upgrade_vampire",
     "name": "バレットライフスティール",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health_stealing_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_lifesteal.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 790496977,
+    "className": "upgrade_double_jump",
     "name": "upgrade_double_jump",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/double_jump.webp",
     "cost": 800,
@@ -489,6 +550,7 @@
   },
   {
     "id": 3321728133,
+    "className": "upgrade_health_regen_aura",
     "name": "upgrade_health_regen_aura",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health_regen_aura.webp",
     "cost": 3200,
@@ -497,22 +559,25 @@
   },
   {
     "id": 1047818222,
+    "className": "upgrade_debuff_reducer",
     "name": "デバフリデューサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/debuff_reducer.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_reducer.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 3731635960,
+    "className": "upgrade_reduce_debuff_duration",
     "name": "ディスペルマジック",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/debuff_remover.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_remover.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 1825391146,
+    "className": "upgrade_high_impact_armor",
     "name": "upgrade_high_impact_armor",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_armor.webp",
     "cost": 1600,
@@ -521,6 +586,7 @@
   },
   {
     "id": 1711193274,
+    "className": "upgrade_slow_immunity",
     "name": "upgrade_slow_immunity",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/sprint_booster.webp",
     "cost": 1600,
@@ -529,6 +595,7 @@
   },
   {
     "id": 471704443,
+    "className": "upgrade_weapon_power_and_health_drain",
     "name": "upgrade_weapon_power_and_health_drain",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/overdrive.webp",
     "cost": 1600,
@@ -537,6 +604,7 @@
   },
   {
     "id": 1319649491,
+    "className": "upgrade_active_bullet_shield",
     "name": "upgrade_active_bullet_shield",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
     "cost": 6400,
@@ -545,54 +613,61 @@
   },
   {
     "id": 2163598980,
+    "className": "upgrade_tech_purge",
     "name": "スピリットレジリエンス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/tech_purge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_resilience.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 3140772621,
+    "className": "upgrade_improved_bullet_armor",
     "name": "バレットレジリエンス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/improved_bullet_armor.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_resilience.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 1378931225,
+    "className": "upgrade_metal_skin",
     "name": "メタルスキン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/metal_skin.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/metal_skin.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 2566692615,
+    "className": "upgrade_healing_booster",
     "name": "ヒーリングブースター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/healing_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_booster.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 3585132399,
+    "className": "upgrade_chonky",
     "name": "フォルティチュード",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/revitalizer.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/fortitude.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 865846625,
+    "className": "upgrade_damage_recycler",
     "name": "ライフドレイン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/leech.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/leech.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1298427343,
+    "className": "upgrade_bullet_damage_reduction_aura",
     "name": "upgrade_bullet_damage_reduction_aura",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/weapon_jammer.webp",
     "cost": 1600,
@@ -601,70 +676,79 @@
   },
   {
     "id": 3399065363,
+    "className": "upgrade_sprint_booster",
     "name": "スプリントブーツ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/sprint_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/sprint_boots.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 3074274290,
+    "className": "upgrade_trophy_collector",
     "name": "トロフィーコレクター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/sprint_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/trophy_collector.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 2447176615,
+    "className": "upgrade_cardio_calibrator",
     "name": "ウィングブーツ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/cardio_calibrator.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/enduring_speed.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 334300056,
+    "className": "upgrade_superior_stamina",
     "name": "スタミナマスタリー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/superior_stamina.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/stamina_mastery.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 564937160,
+    "className": "upgrade_aerial_supremacy",
     "name": "エアリアルマスタリー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/superior_stamina.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/aerial_mastery.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 668299740,
+    "className": "upgrade_rapid_rounds",
     "name": "ラピッドラウンド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/rapid_rounds.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/rapid_rounds.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 4139877411,
+    "className": "upgrade_improved_stamina",
     "name": "エクストラスタミナ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/improved_stamina.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_stamina.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 2481177645,
+    "className": "upgrade_bullet_armor_reduction_aura",
     "name": "ハンターオーラ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_armor_reduction_aura.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/hunters_aura.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 1962740586,
+    "className": "upgrade_camouflage",
     "name": "upgrade_camouflage",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/camouflage_suit.webp",
     "cost": 1600,
@@ -673,6 +757,7 @@
   },
   {
     "id": 3038950099,
+    "className": "upgrade_regenerative_armor",
     "name": "upgrade_regenerative_armor",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/last_stand.webp",
     "cost": 1600,
@@ -681,118 +766,133 @@
   },
   {
     "id": 1672893796,
+    "className": "upgrade_grit",
     "name": "不屈の心",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/grit.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 805079544,
+    "className": "upgrade_weapon_shielding",
     "name": "ウェポンシールド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/weapon_shielding.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 112198670,
+    "className": "upgrade_spirit_bubble",
     "name": "スピリットシールド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_shielding.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1235347618,
+    "className": "upgrade_regenerating_bullet_shield",
     "name": "バトルベスト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/battle_vest.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 3970837787,
+    "className": "upgrade_magic_shield",
     "name": "妖術師の紋章",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_shield_pulse.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/enchanters_emblem.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 968099481,
+    "className": "upgrade_improved_spirit",
     "name": "エクストラスピリット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_damage.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/extra_spirit.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 1439347412,
+    "className": "upgrade_mystic_regeneration",
     "name": "ミスティックリジェネ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/endurance.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_regen.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 7409189,
+    "className": "upgrade_soaring_spirit",
     "name": "グレータースピリット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/soaring_spirit.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/improved_spirit.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 2226497419,
+    "className": "upgrade_tech_overflow",
     "name": "スピリットオーバーフロー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/magic_overflow.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spiritual_overflow.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 3361075077,
+    "className": "upgrade_return_fire",
     "name": "リターンファイア",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/return_fire.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/return_fire.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1193964439,
+    "className": "upgrade_tech_range",
     "name": "グレーターエクスパンダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/spiritual_dominion.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/greater_expansion.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 754480263,
+    "className": "upgrade_magic_reach",
     "name": "ミスティックエクスパンダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_range.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_reach.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 3776945997,
+    "className": "upgrade_extra_charge",
     "name": "エクストラチャージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/extra_charge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/extra_charge.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 876563814,
+    "className": "upgrade_health_stealing_magic",
     "name": "スピリットライフスティール",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/health_stealing_tech.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_lifesteal.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 2645639421,
+    "className": "upgrade_disarm",
     "name": "upgrade_disarm",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/disarm.webp",
     "cost": 800,
@@ -801,38 +901,43 @@
   },
   {
     "id": 2971868509,
+    "className": "upgrade_bullet_resist_shredder",
     "name": "レジストシュレッダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/bullet_resist_shredder.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/bullet_resist_shredder.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 3577481646,
+    "className": "upgrade_mystic_reverb",
     "name": "ミスティックリバーブ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/magic_reverb.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_reverb.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 1998374645,
+    "className": "upgrade_magic_burst",
     "name": "ミスティックバースト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/magic_burst.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_burst.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 2121044373,
+    "className": "upgrade_magic_shock",
     "name": "タンクバスター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/magic_shock.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/tankbuster.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 1052584266,
+    "className": "upgrade_arcane_medallion",
     "name": "upgrade_arcane_medallion",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_medallion.webp",
     "cost": 3200,
@@ -841,94 +946,106 @@
   },
   {
     "id": 2081037738,
+    "className": "upgrade_magic_vulnerability",
     "name": "ヴァルネラビリティ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_vulnerability.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_vulnerability.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 2603935618,
+    "className": "upgrade_healbane",
     "name": "ヒールベイン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/healbane.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healbane.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1102081447,
+    "className": "upgrade_magic_slow",
     "name": "ミスティックスロウ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/slowing_tech.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_slow.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 3005970438,
+    "className": "upgrade_escalating_exposure",
     "name": "エクスポージャー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/escalating_exposure.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/escalating_exposure.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 787198704,
+    "className": "upgrade_rapid_recharge",
     "name": "ラピッドリチャージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rapid_recharge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/rapid_recharge.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 424779525,
+    "className": "upgrade_omnicharge_pendant",
     "name": "オムニチャージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rapid_recharge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/omnicharge_pendant.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 380806748,
+    "className": "upgrade_magic_tempo",
     "name": "コンプレッサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/advanced_recharge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/improved_cooldown.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 3261353684,
+    "className": "upgrade_cooldown_reduction",
     "name": "クールダウンブースト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/spiritual_flow.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/superior_cooldown.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 915014646,
+    "className": "upgrade_transcendent_cooldown",
     "name": "トランセンデント",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/transcendent_cooldown.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 3893702034,
+    "className": "upgrade_timeless_emblem",
     "name": "不朽の紋章",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/timeless_emblem.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 3456645009,
+    "className": "upgrade_shadow_step",
     "name": "シャドウステップ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/warp_stone.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/shadow_step.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 3789823638,
+    "className": "upgrade_duration_extender",
     "name": "upgrade_duration_extender",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_duration_extender.webp",
     "cost": 1600,
@@ -937,6 +1054,7 @@
   },
   {
     "id": 3013879715,
+    "className": "upgrade_slowing_tech",
     "name": "upgrade_slowing_tech",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/slowing_tech.webp",
     "cost": 800,
@@ -945,54 +1063,61 @@
   },
   {
     "id": 1813726886,
+    "className": "upgrade_containment",
     "name": "スロウヘックス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/immobilize.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/slowing_hex.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 1219329868,
+    "className": "upgrade_spirit_sap",
     "name": "スピリットドレイン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/focused_silence.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_sap.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 2142980412,
+    "className": "upgrade_focus_lens",
     "name": "フォーカスレンズ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/focused_silence.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/focus_lens.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 2922054143,
+    "className": "upgrade_withering_whip",
     "name": "コロッシブバレル",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/slowing_tech.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/rusted_barrel.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 2061878743,
+    "className": "upgrade_greater_withering_whip",
     "name": "ディスアームヘックス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/disarm.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/disarming_hex.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 1804594021,
+    "className": "upgrade_rescue_beam",
     "name": "レスキュービーム",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/medic_beam.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rescue_beam.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 2329546537,
+    "className": "upgrade_personal_rejuvenator",
     "name": "リザレクション",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rebirth.webp",
     "cost": 3200,
@@ -1001,6 +1126,7 @@
   },
   {
     "id": 4003032160,
+    "className": "upgrade_rebirth",
     "name": "ソウルリザレクション",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rebirth.webp",
     "cost": 6400,
@@ -1009,6 +1135,7 @@
   },
   {
     "id": 1993213427,
+    "className": "upgrade_long_range_slowing_tech",
     "name": "upgrade_long_range_slowing_tech",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_range.webp",
     "cost": 3200,
@@ -1017,6 +1144,7 @@
   },
   {
     "id": 3064545951,
+    "className": "upgrade_full_spectrum",
     "name": "upgrade_full_spectrum",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_range.webp",
     "cost": 6400,
@@ -1025,6 +1153,7 @@
   },
   {
     "id": 4249800570,
+    "className": "upgrade_tech_cleave",
     "name": "upgrade_tech_cleave",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/quantum_chimaera.webp",
     "cost": 3200,
@@ -1033,6 +1162,7 @@
   },
   {
     "id": 1288322878,
+    "className": "upgrade_bonus_ability_charge_3",
     "name": "upgrade_bonus_ability_charge_3",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/extra_charge.webp",
     "cost": 3200,
@@ -1041,6 +1171,7 @@
   },
   {
     "id": 4245766497,
+    "className": "upgrade_charge_mastery",
     "name": "upgrade_charge_mastery",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/extra_charge.webp",
     "cost": 6400,
@@ -1049,22 +1180,25 @@
   },
   {
     "id": 3144988365,
+    "className": "upgrade_rupture",
     "name": "ディケイ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rupture.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/decay.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 2417568017,
+    "className": "upgrade_discord",
     "name": "スカージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/rupture.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/scourge.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 776145721,
+    "className": "upgrade_aoe_tech_shield",
     "name": "upgrade_aoe_tech_shield",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_shield_pulse.webp",
     "cost": 1600,
@@ -1073,70 +1207,79 @@
   },
   {
     "id": 1254091416,
+    "className": "upgrade_target_stun",
     "name": "ノックダウン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/knockdown.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/knockdown.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 1371725689,
+    "className": "upgrade_phantom_strike",
     "name": "ファントムストライク",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/phantom_strike.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/phantom_strike.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 3270001687,
+    "className": "upgrade_warp_stone",
     "name": "ワープストーン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/warp_stone.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/warp_stone.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 1152158042,
+    "className": "upgrade_aoe_root",
     "name": "ボルテックスウェブ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/area_immobilize.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/vortex_web.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 677738769,
+    "className": "upgrade_ability_refresher",
     "name": "リフレッシャー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/refresher_module.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/refresher.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 630839635,
+    "className": "upgrade_ability_power_shard",
     "name": "エコーシャード",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/echo_shard.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/echo_shard.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 395944548,
+    "className": "upgrade_tech_damage_pulse",
     "name": "トーメントパルス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/torment_aura.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/torment_pulse.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 3361811174,
+    "className": "upgrade_cheat_death",
     "name": "デスチーター",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/torment_aura.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/cheat_death.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 3276909180,
+    "className": "upgrade_reload_speed",
     "name": "upgrade_reload_speed",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/fast_reload.webp",
     "cost": 1600,
@@ -1145,6 +1288,7 @@
   },
   {
     "id": 2560018361,
+    "className": "upgrade_cloaking_device",
     "name": "upgrade_cloaking_device",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/cloaking_device.webp",
     "cost": 3200,
@@ -1153,14 +1297,16 @@
   },
   {
     "id": 1798666702,
+    "className": "upgrade_cloaking_device_active",
     "name": "シャドウウィーブ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/cloaking_device.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/shadow_weave.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 3662153307,
+    "className": "upgrade_fire_rate_aura",
     "name": "upgrade_fire_rate_aura",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/fire_rate_aura.webp",
     "cost": 1600,
@@ -1169,6 +1315,7 @@
   },
   {
     "id": 607292868,
+    "className": "upgrade_weapon_overdrive_clip",
     "name": "upgrade_weapon_overdrive_clip",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/overdrive.webp",
     "cost": 3200,
@@ -1177,6 +1324,7 @@
   },
   {
     "id": 3830846077,
+    "className": "upgrade_rocket_boots",
     "name": "マジェスティックリープ - 無効",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/springy_boots.webp",
     "cost": 3200,
@@ -1185,14 +1333,16 @@
   },
   {
     "id": 600033864,
+    "className": "upgrade_rocket_booster",
     "name": "マジェスティックリープ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/abilities/lash/lash_death_slam.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/majestic_leap.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 271801138,
+    "className": "upgrade_aerial_assault",
     "name": "upgrade_aerial_assault",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/springy_boots.webp",
     "cost": 6400,
@@ -1201,62 +1351,70 @@
   },
   {
     "id": 2956256701,
+    "className": "upgrade_health_nova",
     "name": "ヒーリングノヴァ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/health_nova.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_nova.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 2059712766,
+    "className": "upgrade_restorative_locket",
     "name": "ヒーリングロケット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/restorative_locket.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/restorative_locket.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1710079648,
+    "className": "upgrade_health_stimpak",
     "name": "ヒーリングリチュアル",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/stimpak.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_rite.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 4121584236,
+    "className": "upgrade_shrink_ray",
     "name": "シュリンクレイ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/stimpak.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/shrink_ray.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 1797283378,
+    "className": "upgrade_infuser",
     "name": "インフューザー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/infuser.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/infuser.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 857669956,
+    "className": "upgrade_guardian_ward",
     "name": "ガーディアンワード",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/savior.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/guardian_ward.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 1662311306,
+    "className": "upgrade_divine_barrier",
     "name": "ディバインバリア",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/savior.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/divine_barrier.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 937242723,
+    "className": "upgrade_aoe_smoke_bomb",
     "name": "upgrade_aoe_smoke_bomb",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/smoke.webp",
     "cost": 3200,
@@ -1265,46 +1423,52 @@
   },
   {
     "id": 1932939246,
+    "className": "upgrade_thermal_detonator",
     "name": "アルケミカルファイア",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/thermal_detonator.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/alchemical_fire.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 989206714,
+    "className": "upgrade_blood_tribute",
     "name": "ブラッドトリビュート",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/blood_tribute.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 3403085434,
+    "className": "upgrade_fleetfoot_boots",
     "name": "フリートフット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fleetfoot_boots.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/fleetfoot.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 3977876567,
+    "className": "upgrade_kinetic_sash",
     "name": "キネティックダッシュ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/kinetic_sash.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/kinetic_dash.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 1150006784,
+    "className": "upgrade_arcane_surge",
     "name": "アーケインサージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_surge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/arcane_surge.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 389243496,
+    "className": "upgrade_weapon_eater",
     "name": "upgrade_weapon_eater",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/advanced_weaponry.webp",
     "cost": 1600,
@@ -1313,6 +1477,7 @@
   },
   {
     "id": 315518818,
+    "className": "upgrade_weapon_instant_reload",
     "name": "upgrade_weapon_instant_reload",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/fast_reload.webp",
     "cost": 3200,
@@ -1321,38 +1486,43 @@
   },
   {
     "id": 3357231760,
+    "className": "upgrade_unstoppable",
     "name": "アンストッパブル",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/unstoppable.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/unstoppable.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 2407781327,
+    "className": "upgrade_colossus",
     "name": "コロッサス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/colossus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/colossus.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1976391348,
+    "className": "upgrade_cold_front",
     "name": "コールドフロント",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/ice_blast.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/cold_front.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 3812615317,
+    "className": "upgrade_arctic_blast",
     "name": "アークティックブラスト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/ice_blast.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/arctic_blast.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 486220748,
+    "className": "upgrade_aoe_silence",
     "name": "upgrade_aoe_silence",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/emp_wave.webp",
     "cost": 3200,
@@ -1361,14 +1531,16 @@
   },
   {
     "id": 2533252781,
+    "className": "upgrade_self_bubble",
     "name": "エーテリアルシフト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/shifting_shroud.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/ethereal_shift.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 385745034,
+    "className": "upgrade_stasis_bomb",
     "name": "upgrade_stasis_bomb",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/stasis.webp",
     "cost": 6400,
@@ -1377,6 +1549,7 @@
   },
   {
     "id": 1641353616,
+    "className": "upgrade_quarantine",
     "name": "upgrade_quarantine",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/stasis.webp",
     "cost": 1600,
@@ -1385,14 +1558,16 @@
   },
   {
     "id": 2617435668,
+    "className": "upgrade_glitch",
     "name": "呪いの遺物",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/glitch.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/curse.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 1959600032,
+    "className": "upgrade_imbued_ability",
     "name": "upgrade_imbued_ability",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_damage.webp",
     "cost": 6400,
@@ -1401,46 +1576,52 @@
   },
   {
     "id": 2951612397,
+    "className": "upgrade_arcane_extension",
     "name": "エクステンダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/duration_extender.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/duration_extender.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 2717651715,
+    "className": "upgrade_imbued_duration_extender",
     "name": "スーパーエクステンダー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_persistance.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/superior_duration.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 365620721,
+    "className": "upgrade_glass_cannon",
     "name": "グラスキャノン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/glass_cannon.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/glass_cannon.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 1409190604,
+    "className": "upgrade_fury_trance",
     "name": "フューリートランス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/vampiric_burst.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/fury_trance.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 1055679805,
+    "className": "upgrade_surging_power",
     "name": "ヴァンパイアバースト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/vampiric_burst.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/vampiric_burst.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 481022061,
+    "className": "upgrade_mod_disruptor",
     "name": "upgrade_mod_disruptor",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/thermal_detonator.webp",
     "cost": 6400,
@@ -1449,6 +1630,7 @@
   },
   {
     "id": 2039312305,
+    "className": "upgrade_frenzy",
     "name": "upgrade_frenzy",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/health_stealing_bullets.webp",
     "cost": 6400,
@@ -1457,6 +1639,7 @@
   },
   {
     "id": 253917113,
+    "className": "upgrade_burst_fire_actuator",
     "name": "upgrade_burst_fire_actuator",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/fast_reload.webp",
     "cost": 1600,
@@ -1465,46 +1648,52 @@
   },
   {
     "id": 1252627263,
+    "className": "upgrade_boxing_glove",
     "name": "ライフストライク",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/boxing_glove.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/lifestrike.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 465043967,
+    "className": "upgrade_acolytes_glove",
     "name": "スピリットストライク",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/acolytes_glove.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_strike.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1
   },
   {
     "id": 3190916303,
+    "className": "upgrade_spirit_snatch",
     "name": "スピリットスナッチ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/spirit_snatch.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_snatch.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 26002154,
+    "className": "upgrade_melee_charge",
     "name": "メレーチャージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/melee_charge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/melee_charge.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 800008313,
+    "className": "upgrade_crushing_fists",
     "name": "クラッシュフィスト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/melee_charge.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/crushing_fists.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 3572021243,
+    "className": "upgrade_charmed_wraps",
     "name": "upgrade_charmed_wraps",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/charmed_wraps.webp",
     "cost": 1600,
@@ -1513,6 +1702,7 @@
   },
   {
     "id": 1326137213,
+    "className": "upgrade_belt_fed_magazine",
     "name": "upgrade_belt_fed_magazine",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/auto_reloader.webp",
     "cost": 6400,
@@ -1521,38 +1711,43 @@
   },
   {
     "id": 2820116164,
+    "className": "upgrade_diviners_kevlar",
     "name": "ディバイナーズケブラー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/diviners_kevlar.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 2947183272,
+    "className": "upgrade_resonant_healing",
     "name": "レディアントリジェネ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/boundless_spirit.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/radiant_regeneration.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 2519598785,
+    "className": "upgrade_boundless_spirit",
     "name": "バウンドレススピリット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/boundless_spirit.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/boundless_spirit.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 2739107182,
+    "className": "upgrade_burst_fire",
     "name": "バーストファイア",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/burst_fire.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 558396679,
+    "className": "upgrade_resilience",
     "name": "スピリットサステイン",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/resilience.webp",
     "cost": 800,
@@ -1561,14 +1756,16 @@
   },
   {
     "id": 2829638276,
+    "className": "upgrade_endurance",
     "name": "エクストラリジェネ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/endurance.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_regen.webp",
     "cost": 800,
     "slot": "vitality",
     "tier": 1
   },
   {
     "id": 2985482185,
+    "className": "upgrade_magic_clarity",
     "name": "upgrade_magic_clarity",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/clarity.webp",
     "cost": 1600,
@@ -1577,38 +1774,43 @@
   },
   {
     "id": 1292979587,
+    "className": "upgrade_magic_storm",
     "name": "パワーサージ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/magic_storm.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/surge_of_power.webp",
     "cost": 3200,
     "slot": "spirit",
     "tier": 3
   },
   {
     "id": 1925087134,
+    "className": "upgrade_suppressor",
     "name": "サプレッサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/weapon_jammer.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/suppressor.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 84321454,
+    "className": "upgrade_quick_silver",
     "name": "クイックシルバーリロード",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/quicksilver_reload.webp",
     "cost": 1600,
     "slot": "spirit",
     "tier": 2
   },
   {
     "id": 3919289022,
+    "className": "upgrade_ethereal_bullets",
     "name": "マーキュリーマグナム",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mercurial_magnum.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 2717142638,
+    "className": "upgrade_arcane_eater",
     "name": "upgrade_arcane_eater",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/arcane_eater.webp",
     "cost": 1600,
@@ -1617,6 +1819,7 @@
   },
   {
     "id": 2574520834,
+    "className": "upgrade_predator_precision",
     "name": "upgrade_predator_precision",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/close_range.webp",
     "cost": 1600,
@@ -1625,46 +1828,52 @@
   },
   {
     "id": 2407033488,
+    "className": "upgrade_intensifying_clip",
     "name": "連射強化マガジン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/auto_reloader.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/intensifying_magazine.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 2463960640,
+    "className": "upgrade_reinforcing_casings",
     "name": "エスカレートレジリエンス",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_armor_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/escalating_resilience.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 4104549924,
+    "className": "upgrade_blitz_bullets",
     "name": "スイフトストライカー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/swift_striker.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 865958998,
+    "className": "upgrade_veil_walker",
     "name": "ベールウォーカー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/veil_walker.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/veil_walker.webp",
     "cost": 3200,
     "slot": "vitality",
     "tier": 3
   },
   {
     "id": 1644605047,
+    "className": "upgrade_vex_barrier",
     "name": "リアクティブバリア",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/last_stand.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/reactive_barrier.webp",
     "cost": 1600,
     "slot": "vitality",
     "tier": 2
   },
   {
     "id": 951866250,
+    "className": "upgrade_auto_cleanse",
     "name": "インドミタブル",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/indomitable.webp",
     "cost": 6400,
@@ -1673,46 +1882,52 @@
   },
   {
     "id": 3862866912,
+    "className": "upgrade_medic_bullets",
     "name": "ヒーリングショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/medic_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/restorative_shot.webp",
     "cost": 800,
     "slot": "weapon",
     "tier": 1
   },
   {
     "id": 2356412290,
+    "className": "upgrade_titan_round",
     "name": "巨大拡張マガジン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/titanic_magazine.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/titanic_magazine.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 3647584222,
+    "className": "upgrade_split_shot",
     "name": "スプリットショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/titanic_magazine.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/split_shot.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 381961617,
+    "className": "upgrade_active_reload",
     "name": "アクティブリロード",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/deployable_bullet_shield.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/active_reload.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 2800629741,
+    "className": "upgrade_magic_carpet",
     "name": "マジックカーペット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/abilities/kelvin/ice_path.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/magic_carpet.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 1200177229,
+    "className": "upgrade_spellshield",
     "name": "ヘクサフォイルワード",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/debuff_remover.webp",
     "cost": 3200,
@@ -1721,6 +1936,7 @@
   },
   {
     "id": 2331566268,
+    "className": "upgrade_superacolytes_glove",
     "name": "ヘックスシールドナックル",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/acolytes_glove.webp",
     "cost": 3200,
@@ -1729,6 +1945,7 @@
   },
   {
     "id": 194116661,
+    "className": "upgrade_magic_missile",
     "name": "サモンミサイル",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/glass_cannon.webp",
     "cost": 6400,
@@ -1737,6 +1954,7 @@
   },
   {
     "id": 138320648,
+    "className": "upgrade_heal_on_level",
     "name": "パトロンヒーリング",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/last_stand.webp",
     "cost": 800,
@@ -1745,22 +1963,25 @@
   },
   {
     "id": 343572757,
+    "className": "upgrade_spirit_burn",
     "name": "スピリットバーン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/escalating_exposure.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_burn.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 493591231,
+    "className": "upgrade_ultimate_burst",
     "name": "ライトニングスクロール",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/adrenaline_rush.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/lightning_scroll.webp",
     "cost": 6400,
     "slot": "spirit",
     "tier": 4
   },
   {
     "id": 3913864662,
+    "className": "upgrade_corpse_explosion",
     "name": "ソウルエクスプロージョン",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/smoke.webp",
     "cost": 3200,
@@ -1769,30 +1990,34 @@
   },
   {
     "id": 3028234315,
+    "className": "upgrade_absorbing_armor",
     "name": "ウィッチメイル",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_medallion.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/witchmail.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1427630806,
+    "className": "upgrade_healbuff",
     "name": "ヒーリングテンポ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/aura_icon.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_tempo.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 3346798998,
+    "className": "upgrade_infinitemagazine",
     "name": "エンドレスマガジン",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/abilities/wraith_daggers.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/panorama:\"\"",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 1497973293,
+    "className": "upgrade_glass_cannon2",
     "name": "グラスキャノン v2",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/glass_cannon.webp",
     "cost": 6400,
@@ -1801,38 +2026,43 @@
   },
   {
     "id": 673001892,
+    "className": "upgrade_aprounds",
     "name": "アーマーピアサー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/armor_breaking_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/armor_piercing_rounds.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 3269957497,
+    "className": "upgrade_infinite_rounds",
     "name": "インフィニットラウンド",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/armor_breaking_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/infinite_rounds.webp",
     "cost": 9999,
     "slot": "weapon",
     "tier": 5
   },
   {
     "id": 3491236900,
+    "className": "upgrade_deflecting_armor",
     "name": "プレートアーマー",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_medallion.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/plated_armor.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1955841979,
+    "className": "upgrade_spellbreaker",
     "name": "スペルブレイカー",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spellbreaker.webp",
     "cost": 6400,
     "slot": "vitality",
     "tier": 4
   },
   {
     "id": 1250307611,
+    "className": "upgrade_juggernaut",
     "name": "ジャガーノート",
     "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/juggernaut.webp",
     "cost": 6400,
@@ -1841,160 +2071,180 @@
   },
   {
     "id": 2221211450,
+    "className": "upgrade_enchanted_holsters",
     "name": "スペルスリンガー",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spell_slinger.webp",
     "cost": 6400,
     "slot": "weapon",
     "tier": 4
   },
   {
     "id": 98582110,
+    "className": "upgrade_weapon_backstabber",
     "name": "ストーカー",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/backstabber.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 690458959,
+    "className": "upgrade_express_shot",
     "name": "エクスプレスショット",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/express_shot.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 1736094134,
+    "className": "upgrade_icarus_wings",
     "name": "セラフィムウィング",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_utility/sprint_booster.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/icarus_wings.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 2054088113,
+    "className": "upgrade_mystical_piano",
     "name": "ミスティカルピアノ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/knockdown.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/mystical_piano.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 3949773228,
+    "className": "upgrade_nullification_aura",
     "name": "虚無の波動",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/bullet_armor_reduction_aura.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/nullification_aura.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 3729138568,
+    "className": "upgrade_celestial_guidance",
     "name": "天の祝福",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_armor/debuff_reducer.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/celestial_guidance.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 230297145,
+    "className": "upgrade_eternal_gift",
     "name": "エターナルギフト",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/eternal_gift.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 4050602737,
+    "className": "upgrade_patrons_blessing",
     "name": "ミスティックコンジット",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/patrons_blessing.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 3568217437,
+    "className": "upgrade_eldritch_shot",
     "name": "ホーンテッドショット",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/explosive_bullets.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/eldritch_shot.webp",
     "cost": 9999,
     "slot": "weapon",
     "tier": 5
   },
   {
     "id": 3523480953,
+    "className": "upgrade_cloak_of_opportunity",
     "name": "加護のマント",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/cloak_of_opportunity.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 64550694,
+    "className": "upgrade_runed_gauntlets",
     "name": "ルーンガントレット",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/runed_gauntlets.webp",
     "cost": 9999,
     "slot": "weapon",
     "tier": 5
   },
   {
     "id": 1825399334,
+    "className": "upgrade_electric_slippers",
     "name": "エレクトリックブーツ",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/electric_slippers.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 1132564516,
+    "className": "upgrade_prism_blast",
     "name": "プリズムブラスト",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/shifting_shroud.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/prism_blast.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 1558545403,
+    "className": "upgrade_unstable_concoction",
     "name": "不安定な調合薬",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/unstable_concoction.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 2068250483,
+    "className": "upgrade_shivas_bracelet",
     "name": "凍傷のチャーム",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/frostbite.webp",
     "cost": 9999,
     "slot": "spirit",
     "tier": 5
   },
   {
     "id": 2319629810,
+    "className": "upgrade_shadow_strike",
     "name": "シャドウストライク",
-    "image": null,
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/brawl/shadow_strike.webp",
     "cost": 9999,
     "slot": "vitality",
     "tier": 5
   },
   {
     "id": 3294954488,
+    "className": "upgrade_bulletshredimbue",
     "name": "バリスティックエンチャント",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_weapon/fire_rate_plus.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/alchemical_seal.webp",
     "cost": 3200,
     "slot": "weapon",
     "tier": 3
   },
   {
     "id": 1763073141,
+    "className": "upgrade_rechargingbullets",
     "name": "リチャージラッシュ",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/arcane_medallion.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/recharging_rounds.webp",
     "cost": 1600,
     "slot": "weapon",
     "tier": 2
   },
   {
     "id": 2462046703,
+    "className": "upgrade_goose_egg",
     "name": "ガチョウの黄金の卵",
-    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/upgrades/mods_tech/tech_damage.webp",
+    "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/goose_egg.webp",
     "cost": 800,
     "slot": "spirit",
     "tier": 1

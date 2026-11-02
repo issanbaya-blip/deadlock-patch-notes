@@ -5,8 +5,8 @@ export async function onRequest({ request }) {
   const heroId = Number(url.searchParams.get("hero_id"));
   if (!Number.isInteger(heroId) || heroId < 1) return Response.json({ error: "ヒーローを指定してください。" }, { status: 400 });
   const cache = caches.default;
-  const cacheKey = new Request(url.toString(), request);
-  const cached = await cache.match(cacheKey);
+  const cacheKey = new Request(`${url.origin}/api/hero-insights?hero_id=${heroId}&v=3`);
+  const cached = url.searchParams.get("refresh") === "1" ? null : await cache.match(cacheKey);
   if (cached) return cached;
   const since = Math.floor(Date.now() / 1000) - 30 * 86400;
   const get = async path => {
@@ -41,7 +41,7 @@ export async function onRequest({ request }) {
       synergies: (synergies || []).filter(row => row.hero_id1 === heroId || row.hero_id2 === heroId),
       builds
     };
-    const response = Response.json(result, { headers: { "Cache-Control": "public, max-age=900", "Access-Control-Allow-Origin": "*" } });
+    const response = Response.json(result, { headers: { "Cache-Control": "no-store", "Access-Control-Allow-Origin": "*" } });
     await cache.put(cacheKey, response.clone());
     return response;
   } catch (error) {
