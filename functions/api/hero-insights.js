@@ -5,10 +5,10 @@ export async function onRequest({ request }) {
   const heroId = Number(url.searchParams.get("hero_id"));
   if (!Number.isInteger(heroId) || heroId < 1) return Response.json({ error: "ヒーローを指定してください。" }, { status: 400 });
   const cache = caches.default;
-  const cacheKey = new Request(`${url.origin}/api/hero-insights?hero_id=${heroId}&v=3`);
+  const cacheKey = new Request(`${url.origin}/api/hero-insights?hero_id=${heroId}&v=4`);
   const cached = url.searchParams.get("refresh") === "1" ? null : await cache.match(cacheKey);
   if (cached) return cached;
-  const since = Math.floor(Date.now() / 1000) - 30 * 86400;
+  const since = Math.floor(Date.now() / 1000) - 3 * 86400;
   const get = async path => {
     const response = await fetch(`${API}${path}`, { headers: { accept: "application/json" } });
     if (!response.ok) throw new Error(`データAPIが ${response.status} を返しました`);
